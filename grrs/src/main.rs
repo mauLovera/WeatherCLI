@@ -14,6 +14,7 @@ async fn main() -> Result<(), reqwest::Error> {
         #[arg(long, default_value = "Mauricio")]
         name: String,
 
+        /// Name of the city to lookup
         #[arg(short, long, default_value = "Miami")]
         city: String,
 
